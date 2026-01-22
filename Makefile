@@ -23,9 +23,6 @@ help:
 	@echo "make bench         → Run benchmarks"
 	@echo "make bench-save    → Run benchmarks and save output"
 	@echo "make load          → Run concurrency load test (benchmark.go)"
-	@echo "make fmt           → Format code"
-	@echo "make lint          → Run static analysis"
-	@echo "make clean         → Clean build artifacts"
 	@echo "----------------------------------------"
 	@echo ""
 
