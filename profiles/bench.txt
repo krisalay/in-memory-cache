@@ -1,0 +1,21 @@
+goos: darwin
+goarch: arm64
+pkg: github.com/krisalay/in-memory-cache
+cpu: Apple M1
+BenchmarkCacheGetHit-8            	10616120	       115.3 ns/op	       0 B/op	       0 allocs/op
+BenchmarkCacheGetMiss-8           	 7111488	       175.4 ns/op	     104 B/op	       3 allocs/op
+BenchmarkCacheParallelGet-8       	15757232	        91.22 ns/op	       0 B/op	       0 allocs/op
+BenchmarkCachePut-8               	   37414	    135403 ns/op	  109405 B/op	      15 allocs/op
+BenchmarkCacheHighConcurrency-8   	17235393	       124.5 ns/op	       0 B/op	       0 allocs/op
+PASS
+ok  	github.com/krisalay/in-memory-cache	17.068s
+?   	github.com/krisalay/in-memory-cache/api	[no test files]
+?   	github.com/krisalay/in-memory-cache/cmd	[no test files]
+?   	github.com/krisalay/in-memory-cache/cmd/benchmark	[no test files]
+?   	github.com/krisalay/in-memory-cache/engine	[no test files]
+?   	github.com/krisalay/in-memory-cache/eviction	[no test files]
+?   	github.com/krisalay/in-memory-cache/expiration	[no test files]
+?   	github.com/krisalay/in-memory-cache/refresh	[no test files]
+?   	github.com/krisalay/in-memory-cache/shard	[no test files]
+?   	github.com/krisalay/in-memory-cache/types	[no test files]
+?   	github.com/krisalay/in-memory-cache/writepolicy	[no test files]
